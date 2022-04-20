@@ -1,7 +1,7 @@
 {
   "name": "web-services-341",
   "version": "1.0.0",
-  "description": "CSE 341 course code",
+  "description": "CSE 341 Course code with examples and little assignments",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,8 +18,5 @@
   "homepage": "https://github.com/kevincastrochavez/cse341-node#readme",
   "dependencies": {
     "express": "^4.17.3"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.15"
   }
 }
