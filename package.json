@@ -1,0 +1,25 @@
+{
+  "name": "web-services-341",
+  "version": "1.0.0",
+  "description": "CSE 341 course code",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevincastrochavez/cse341-node.git"
+  },
+  "author": "Kevin Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevincastrochavez/cse341-node/issues"
+  },
+  "homepage": "https://github.com/kevincastrochavez/cse341-node#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
