@@ -1,6 +1,7 @@
 const routes = require('express').Router();
-const names = require('../controllers');
+const userController = require('../controllers/user');
 
-routes.get('/', names.displayName);
+routes.get('/', userController.getUser);
+routes.get('/username', userController.getUsername);
 
 module.exports = routes;
